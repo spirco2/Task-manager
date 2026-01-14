@@ -3,8 +3,7 @@ from storage import load_tasks, save_tasks, add_tasks, delete_tasks, edit_tasks,
 
 tasks = load_tasks()
 clear_tasks(tasks)
-
-print("Toutes les tâches ont été supprimées !")
+print(load_tasks())  
 
 tasks = load_tasks()
 print("initiale :", tasks)

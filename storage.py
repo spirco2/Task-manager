@@ -32,5 +32,10 @@ def edit_tasks(tasks, index, new_title, new_done):
     return False
 
 def clear_tasks(tasks):
-    tasks.clear()
-    save_tasks(tasks)
+    confirmer = input("Voulez-vous vraiment supprimer toutes les tâches ? (o/n) : ").lower()
+    if confirmer == 'o':
+        tasks.clear()
+        save_tasks(tasks)
+        print("Toutes les tâches ont été supprimées !")
+    else:
+        print("Suppression annulée.")
