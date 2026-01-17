@@ -1,27 +1,41 @@
 # Task Manager (Python)
 
 ## 📌 Description
-Ce projet est une application simple de gestion de tâches développée en Python.
-Elle permet d’ajouter, modifier, supprimer et organiser des tâches à partir du terminal.
+Task Manager est une application CLI (ligne de commande) simple pour gérer vos tâches.  
+Elle permet d’ajouter, modifier, supprimer et organiser des tâches directement depuis le terminal.  
 
-Ce projet a été réalisé dans un but d’apprentissage afin de développer mes compétences
-en programmation Python, en structuration de projet et en utilisation de Git/GitHub.
+Ce projet a été réalisé dans un but d’apprentissage pour :  
+- Développer mes compétences en **Python**  
+- Structurer un projet multi-fichiers  
+- Utiliser **Git/GitHub** pour le versionning
 
 ---
 
 ## ⚙️ Fonctionnalités
-- Ajouter une tâche
-- Modifier une tâche (titre / état)
-- Supprimer une tâche
-- Supprimer toutes les tâches
-- Sauvegarde automatique dans un fichier JSON
+- Ajouter une tâche (titre + état “terminé / non terminé”)  
+- Modifier une tâche existante  
+- Supprimer une tâche individuelle  
+- Supprimer toutes les tâches  
+- Affichage clair des tâches avec statut ✅ / ❌  
+- Sauvegarde automatique des tâches dans un fichier JSON  
 
 ---
 
-## 🛠️ Technologies utilisées
-- Python 3
-- JSON (stockage des données)
-- Git & GitHub
-- VS Code
+## 🛠️ Technologies et outils
+- **Python 3** (programmation et logique)  
+- **JSON** (stockage persistant des données)  
+- **VS Code** (éditeur de code)  
+- **Git & GitHub** (gestion de version et collaboration)  
 
 ---
+
+## 🚀 Utilisation
+1. Cloner le projet :  
+```bash
+git clone <(https://github.com/spirco2/Task-manager.git)>
+
+!!!!!!!!!!!
+Lancer l’application :
+
+python main.py
+!!!!!!!!!!!
